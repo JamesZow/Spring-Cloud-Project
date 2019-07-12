@@ -22,10 +22,9 @@
 ## 联系我们
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
-* 邮件(dev.hubo#gmail.com, 把#换成@)
-* QQ: 287759234
-* weibo: [@草依山](http://weibo.com/ihubo)
-* twitter: [@ihubo](http://twitter.com/ihubo)
+* 邮件(18601701547#163.com, 把#换成@)
+* 微博: [@细想](http://weibo.com/ihubo)
+* twitter: [@jameszow](http://twitter.com/ihubo)
 
 ## 感激
 感谢以下的项目提供资料学习,排名不分先后
@@ -38,4 +37,4 @@
 
 98年出生的一个愤青，17岁开始学习software，先后在西安，上海，广州奋斗3 4年，喜欢研究和分享it技术
 
-* [ace](http://ace.ajax.org/)
+* [James zow](https://github.com/JamesZow)
