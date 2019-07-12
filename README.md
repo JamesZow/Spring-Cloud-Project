@@ -4,16 +4,16 @@
 
 ## 技术选型
 
-* `Spring Boot`
-* `Spring Cloud Eureka`
-* `Spring Cloud Consul`
-* `Spring Cloud Ribbon`
-* `Spring Cloud Feign`
-* `Spring Cloud Config`
-* `Spring Cloud zipkin`
-* `Spring Cloud zuul`
-* `Deeplearning4j`
-* `IBM Waston`
+* `Spring Boot` 可以轻松创建Spring的应用程序
+* `Spring Cloud Eureka` 服务注册与发现组件（已闭源）
+* `Spring Cloud Consul` 服务注册与发现组件
+* `Spring Cloud Ribbon` 负载均衡组件
+* `Spring Cloud Feign` 声明式服务调用组件（整合了Ribbon）
+* `Spring Cloud Config` 全局配置中心组件
+* `Spring Cloud zipkin` 链路追踪组件
+* `Spring Cloud zuul` 网关服务和熔断组件
+* `Deeplearning4j` 深度学习框架（人工智能的一个纯Java编写的框架）
+* `IBM Waston` IBM 人工智能机器人通讯组件
 
 ## 上手指南
 首先该项目需要会使用Spring Boot基本语法，了解Spring Cloud是干嘛的<br>
