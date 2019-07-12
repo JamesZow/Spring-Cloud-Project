@@ -1,9 +1,8 @@
 ## Spring-Cloud-Project
 
+本项目是一个纯Java编写的的Project,整合了微服务架构的重要组件和深度学习的框架，提供给大家参考学习
 
-向Mac下优秀的markdown编辑器mou致敬
-
-## MaHua有哪些功能？
+## 安装要求
 
 * 方便的`导入导出`功能
     *  直接把一个markdown的文本文件拖放到当前这个页面就可以了
