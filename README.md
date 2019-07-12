@@ -4,9 +4,8 @@
 
 ## 技术选型
 
+* `Spring Boot`
 * `Spring Cloud Eureka`
-    *  直接把一个markdown的文本文件拖放到当前这个页面就可以了
-    *  导出为一个html格式的文件，样式一点也不会丢失
 * `Spring Cloud Consul`
 * `Spring Cloud Ribbon`
 * `Spring Cloud Feign`
@@ -16,7 +15,11 @@
 * `Deeplearning4j`
 * `IBM Waston`
 
-## 有问题反馈
+## 上手指南
+首先该项目需要会使用Spring Boot基本语法，了解Spring Cloud是干嘛的<br>
+aaaa
+
+## 联系我们
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
 * 邮件(dev.hubo#gmail.com, 把#换成@)
