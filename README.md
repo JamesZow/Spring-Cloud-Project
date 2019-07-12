@@ -40,4 +40,4 @@
 
 98年出生的一个愤青，17岁开始学习software，先后在西安，上海，广州奋斗3 4年，喜欢研究和分享it技术
 
-* [James zow](https://github.com/JamesZow)
+* [James Zow](https://github.com/JamesZow)
