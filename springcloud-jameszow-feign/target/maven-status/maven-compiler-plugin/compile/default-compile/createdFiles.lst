@@ -1,0 +1,5 @@
+com/jameszow/feign/utils/FeignApplication.class
+com/jameszow/feign/controller/FeignController.class
+com/jameszow/feign/serviceimpl/FeignExecueCommonErrorServiceImpl.class
+com/jameszow/feign/service/FeignExecueCommonService.class
+com/jameszow/feign/service/FeignService.class

@@ -1,0 +1,11 @@
+server:
+  port: 9411
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

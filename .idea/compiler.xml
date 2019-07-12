@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-jameszow-eureka" />
+        <module name="home" />
+        <module name="springcloud-jameszow-ibm-waston" />
+        <module name="springcloud-jameszow-common" />
+        <module name="springcloud-jameszow-consul-serverprovide" />
+        <module name="springcloud-jameszow-ribbon" />
+        <module name="springcloud-jameszow-feign" />
+        <module name="springcloud-jameszow-deeplearning4j" />
+        <module name="springcloud-jameszow-config-server" />
+        <module name="springcloud-jameszow-zuul" />
+        <module name="springcloud-james-interfaces" />
+        <module name="springcloud-jameszow-zipkin" />
+        <module name="springcloud-jameszow-bus" />
+        <module name="springcloud-jameszow-zipkin-clientb" />
+        <module name="springcloud-jameszow-consul-serverconsumption" />
+        <module name="springcloud-jameszow-config-client" />
+        <module name="springcloud-jameszow-zipkin-clienta" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="home" options="-parameters" />
+      <module name="springcloud-james-interfaces" options="-parameters" />
+      <module name="springcloud-jameszow-bus" options="-parameters" />
+      <module name="springcloud-jameszow-common" options="-parameters" />
+      <module name="springcloud-jameszow-config-client" options="-parameters" />
+      <module name="springcloud-jameszow-config-server" options="-parameters" />
+      <module name="springcloud-jameszow-consul-serverconsumption" options="-parameters" />
+      <module name="springcloud-jameszow-consul-serverprovide" options="-parameters" />
+      <module name="springcloud-jameszow-deeplearning4j" options="-parameters" />
+      <module name="springcloud-jameszow-eureka" options="-parameters" />
+      <module name="springcloud-jameszow-feign" options="-parameters" />
+      <module name="springcloud-jameszow-ibm-waston" options="-parameters" />
+      <module name="springcloud-jameszow-ribbon" options="-parameters" />
+      <module name="springcloud-jameszow-zipkin" options="-parameters" />
+      <module name="springcloud-jameszow-zipkin-clienta" options="-parameters" />
+      <module name="springcloud-jameszow-zipkin-clientb" options="-parameters" />
+      <module name="springcloud-jameszow-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

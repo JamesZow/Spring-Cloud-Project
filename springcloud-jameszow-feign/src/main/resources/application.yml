@@ -1,0 +1,24 @@
+server:
+  port: 9998
+
+spring:
+  application:
+    name: spring-cloud-feign
+
+#注册中心指向start
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+#注册中心指向end
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+#暴露全部的监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

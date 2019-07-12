@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/home" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-james-interfaces" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-consul-serverconsumption" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-consul-serverprovide" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-deeplearning4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-ibm-waston" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin-clienta" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin-clientb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-zuul" charset="UTF-8" />
+  </component>
+</project>

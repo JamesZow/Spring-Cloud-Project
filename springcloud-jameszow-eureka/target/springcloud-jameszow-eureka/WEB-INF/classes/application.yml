@@ -1,0 +1,17 @@
+server:
+  port: 8888
+eureka:
+  datacenter: trmap
+  environment: product
+  server:
+    # 关闭自我保护
+    enable-self-preservation: false
+    # 清理服务器
+    eviction-interval-timer-in-ms: 5000
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://47.111.103.145:8888/eureka/
+    register-with-eureka: false
+    fetch-registry: false

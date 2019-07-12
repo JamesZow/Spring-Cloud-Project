@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: home Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: jameszow
+Implementation-Vendor-Id: com.jamsezow
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_201
+Main-Class: ${start-class}
+

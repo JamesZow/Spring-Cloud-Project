@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-deeplearning4j
+
+#注册中心指向start
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+#注册中心指向end

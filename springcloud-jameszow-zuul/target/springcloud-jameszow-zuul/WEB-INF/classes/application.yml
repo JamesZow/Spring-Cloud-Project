@@ -1,0 +1,21 @@
+server:
+  port: 7764
+
+spring:
+  application:
+    name: spring-cloud-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+zuul:
+  routes:
+    server-a:
+      path: /server-a/**
+      serviceId: spring-cloud-ribbon
+    server-b:
+      path: /server-b/**
+      serviceId: spring-cloud-feign
+

@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    consul:
+#consul 地址
+      host: localhost
+#consul 端口
+      port: 8500
+#服务提供者对外提供的健康检查接口
+      discovery:
+        health-check-path: /health
+        health-check-interval: 15s
+#服务实例ID
+        instance-id: consul-server-provide
+
+#应用名称
+application:
+  name: consul-server-provide
+
+#对外提供服务的端口
+server:
+  port: 8502

@@ -1,0 +1,12 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: spring-cloud-common
+ 
+#注册中心指向start    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+#注册中心指向end

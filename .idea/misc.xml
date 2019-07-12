@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/home" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-james-interfaces" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-bus" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-common" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-config-client" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-config-server" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-consul-serverconsumption" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-consul-serverprovide" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-deeplearning4j" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-ibm-waston" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-ribbon" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin-clienta" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin-clientb" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zuul" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

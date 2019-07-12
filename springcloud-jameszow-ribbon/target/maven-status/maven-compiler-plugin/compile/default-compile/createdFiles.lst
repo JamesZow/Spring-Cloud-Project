@@ -1,0 +1,3 @@
+com/jameszow/ribbon/controller/HelloController.class
+com/jameszow/ribbon/utils/ServiceRibbonApplication.class
+com/jameszow/ribbon/services/HelloJamesService.class

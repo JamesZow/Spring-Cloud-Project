@@ -1,0 +1,18 @@
+server:
+  port: 8888
+eureka:
+  datacenter: trmap
+  environment: product
+  server:
+    # 关闭自我保护
+    enable-self-preservation: false
+    # 清理服务器
+    eviction-interval-timer-in-ms: 5000
+  client:
+    healthcheck:
+      enabled: false
+    service-url:
+      defaultZone: http://localhost:8888
+    register-with-eureka: false
+    fetch-registry: false
+    eureka-connection-idle-timeout-seconds: 60
