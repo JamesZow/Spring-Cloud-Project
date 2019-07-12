@@ -16,8 +16,8 @@
 * `IBM Waston` IBM 人工智能机器人通讯组件
 
 ## 上手指南
-首先该项目需要会使用Spring Boot基本语法，了解Spring Cloud是干嘛的<br>
-aaaa
+首先该项目需要会使用Spring Boot基本语法，了解Spring Cloud是怎么使用的<br>
+直接clone到本地，进行jar下载
 
 ## 联系我们
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
@@ -26,10 +26,6 @@ aaaa
 * QQ: 287759234
 * weibo: [@草依山](http://weibo.com/ihubo)
 * twitter: [@ihubo](http://twitter.com/ihubo)
-
-## 捐助开发者
-在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。
-当然，有钱捧个钱场（右上角的爱心标志，支持支付宝和PayPal捐助），没钱捧个人场，谢谢各位。
 
 ## 感激
 感谢以下的项目,排名不分先后
@@ -40,9 +36,6 @@ aaaa
 
 ## 关于作者
 
-```javascript
-  var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
-  }
-```
+98年出生的一个愤青，17岁开始学习software，先后在西安，上海，广州奋斗3 4年，喜欢研究和分享it技术
+
+* [ace](http://ace.ajax.org/)
