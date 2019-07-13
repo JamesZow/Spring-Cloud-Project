@@ -16,9 +16,9 @@
 * `IBM Waston` IBM 人工智能机器人通讯组件
 
 ## 上手指南
-* 所有Spring Cloud相关组件采用对版本为2.1.2<br>
+* 所有Spring Cloud相关组件采用的版本为2.1.2<br>
 * 首先该项目需要会使用Spring Boot基本语法，了解Spring Cloud是怎么使用的<br>
-* 其次需要对Java语法和Spring框架有一定对了解<br>
+* 其次需要对Java语法和Spring框架有一定的了解<br>
 * clone到本地，导入该项目可以直接运行启用
 * 如果发现port占用需要到对应的组件resources下的配置文件修改端口
 
