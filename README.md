@@ -10,8 +10,9 @@
 * `Spring Cloud Ribbon` 负载均衡组件
 * `Spring Cloud Feign` 声明式服务调用组件（整合了Ribbon）
 * `Spring Cloud Config` 全局配置中心组件
-* `Spring Cloud zipkin` 链路追踪组件
-* `Spring Cloud zuul` 网关服务和熔断组件
+* `Spring Cloud Zipkin` 链路追踪组件
+* `Spring Cloud Zuul` 网关服务和熔断组件
+* `Spring Cloud Gateway` 网关路由服务 （非阻塞式api）
 * `Deeplearning4j` 深度学习框架（人工智能的一个纯Java编写的框架）
 * `IBM Waston` IBM 人工智能机器人通讯组件
 
