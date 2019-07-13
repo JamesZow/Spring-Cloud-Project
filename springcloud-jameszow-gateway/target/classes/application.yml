@@ -1,0 +1,10 @@
+server:
+  port: 7070
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: neo_route
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/spring-cloud

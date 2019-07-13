@@ -21,6 +21,7 @@
         <module name="springcloud-jameszow-bus" />
         <module name="springcloud-jameszow-zipkin-clientb" />
         <module name="springcloud-jameszow-consul-serverconsumption" />
+        <module name="springcloud-jameszow-gateway" />
         <module name="springcloud-jameszow-config-client" />
         <module name="springcloud-jameszow-zipkin-clienta" />
       </profile>
@@ -39,6 +40,7 @@
       <module name="springcloud-jameszow-deeplearning4j" options="-parameters" />
       <module name="springcloud-jameszow-eureka" options="-parameters" />
       <module name="springcloud-jameszow-feign" options="-parameters" />
+      <module name="springcloud-jameszow-gateway" options="-parameters" />
       <module name="springcloud-jameszow-ibm-waston" options="-parameters" />
       <module name="springcloud-jameszow-ribbon" options="-parameters" />
       <module name="springcloud-jameszow-zipkin" options="-parameters" />

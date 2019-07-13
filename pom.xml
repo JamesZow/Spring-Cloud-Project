@@ -36,7 +36,8 @@
         <module>springcloud-jameszow-consul-serverconsumption</module>
 		<module>springcloud-jameszow-bus</module>
         <module>home</module>
-    </modules>
+		<module>springcloud-jameszow-gateway</module>
+	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>

@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/springcloud-jameszow-deeplearning4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-jameszow-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-jameszow-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jameszow-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-jameszow-ibm-waston" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-jameszow-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin" charset="UTF-8" />

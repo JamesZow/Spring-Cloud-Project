@@ -15,7 +15,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @create 2019-01-9 13:40
  */
 @SpringBootApplication //spring-boot 启动注解
-@EnableEurekaServer // spring-cloud 服务注解
+@EnableEurekaServer // sprihttps://github.com/JamesZow/Spring-Cloud-Project.gitng-cloud 服务注解
 public class RegisterMain {
 	 public static void main(String [] args) {
     	 new SpringApplicationBuilder(RegisterMain.class).run(args);

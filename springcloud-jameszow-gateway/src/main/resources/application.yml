@@ -1,0 +1,11 @@
+server:
+  port: 7070
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: number1
+          ## 这里我默认让它跳转到 百度网址
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/spring-cloud-gateway

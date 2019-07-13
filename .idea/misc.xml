@@ -13,6 +13,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-deeplearning4j" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-eureka" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-gateway" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-ibm-waston" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-ribbon" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin" />
