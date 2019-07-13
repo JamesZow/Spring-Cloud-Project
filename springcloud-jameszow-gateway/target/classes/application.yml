@@ -4,7 +4,124 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: neo_route
+        - id: number1
+          ## 这里我默认让它跳转到 百度网址
           uri: http://www.baidu.com
           predicates:
-            - Path=/spring-cloud
+            - Path=/spring-cloud-gateway
+
+#通过时间匹配 (请求时间在 2019年7月20日6点6分6秒之后的所有请求都转发到地址http://baidu.com)
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: time_route
+#        uri: http://baidu.com
+#        predicates:
+#          - After=2019-07-20T06:06:06+08:00[Asia/Shanghai]
+
+#通过时间匹配 （请求时间在 2019年8月20日6点6分6秒之前的所有请求都转发到地址http://baidu.com）
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: after_route
+#        uri: http://baidu.com
+#        predicates:
+#          - Before=2019-08-20T06:06:06+08:00[Asia/Shanghai]
+
+#通过时间匹配（时间段范围匹配）一般应用场景在限时抢购
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: after_route
+#        uri: http://baidu.com
+#        predicates:
+#          - Between=2019-07-20T06:06:06+08:00[Asia/Shanghai], 2019-08-20T06:06:06+08:00[Asia/Shanghai]
+
+#通过cookie匹配
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: cookie_route
+#          uri: http://baidu.com
+#          predicates:
+#            - Cookie=baidu, jameszow
+# 测试 curl http://localhost:7070 --cookie "baidu=jameszow"
+
+#通过Header属性匹配
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: header_route
+#          uri: http://baidu.com
+#          predicates:
+#            - Header=ID, \d+
+# 测试 curl http://localhost:7070  -H "ID:666666"
+
+#通过Host匹配
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: host_route
+#          uri: http://baidu.com
+#          predicates:
+#            - Host=**.jameszow.com
+# 测试 curl http://localhost:7070  -H "Host: xxxxx.jameszow.com"
+
+#通过请求方式匹配
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: method_route
+#          uri: http://baidu.com
+#          predicates:
+#            - Method=GET
+# 测试 curl 默认是以 GET 的方式去请求  curl http://localhost:7070
+# 测试 curl -X POST http://localhost:8080 post请求是找不到到 404页面
+
+#通过请求参数匹配
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: query_route
+#          uri: http://baidu.com
+#          predicates:
+#            - Query=ID
+# 测试 只要请求汇总带有 smile 参数即会匹配路由，不带 smile 参数则不会匹配 curl localhost:7070?ID=jameszow
+
+#通过请求IP地址匹配
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: remoteaddr_route
+#          uri: http://baidu.com
+#          predicates:
+#            - RemoteAddr=192.168.1.1/24
+# 测试 只要远程地址是 192.168.1.10，则此路由将匹配
+
+
+
+#组合使用
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: host_foo_path_headers_to_httpbin
+#        uri: http://ityouknow.com
+#        predicates:
+#          - Host=**.spring.io
+#          - Path=/headers
+#          - Method=GET
+#          - Header=ID, \d+
+#          - Query=Name
+#          - Query=Sex
+#          - Cookie=cookies, jameszow
+#          - After=2019-07-20T06:06:06+08:00[Asia/Shanghai]

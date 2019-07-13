@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53f7915-ebc9-4dd1-a24e-c59f39d455d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-jameszow-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-jameszow-gateway/springcloud-jameszow-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/springcloud-jameszow-ribbon/target/" />
@@ -61,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="2142">
+              <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -70,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="132">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#487#488#0" expanded="true" />
@@ -127,8 +119,8 @@
         <option value="$PROJECT_DIR$/home/pom.xml" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java" />
-        <option value="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-jameszow-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml" />
       </list>
     </option>
@@ -161,8 +153,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="59" />
+    <option name="x" value="106" />
+    <option name="y" value="23" />
     <option name="width" value="1538" />
     <option name="height" value="928" />
   </component>
@@ -221,6 +213,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
@@ -290,7 +317,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -543,8 +570,8 @@
       <item itemvalue="Spring Boot.Test" />
       <item itemvalue="Spring Boot.zipkinApplication" />
       <item itemvalue="Spring Boot.zuulApplication" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.29" />
       <item itemvalue="Spring Boot.gatewayApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.29" />
     </list>
     <recent_temporary>
       <list>
@@ -590,7 +617,7 @@
       <workItem from="1562948223698" duration="813000" />
       <workItem from="1562952119254" duration="518000" />
       <workItem from="1562959360431" duration="615000" />
-      <workItem from="1562989933528" duration="3274000" />
+      <workItem from="1562989933528" duration="6421000" />
     </task>
     <task id="LOCAL-00001" summary="commit spring-cloud ai project">
       <created>1557133544192</created>
@@ -631,7 +658,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41359000" />
+    <option name="totallyTimeSpent" value="44506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,11 +670,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="59" width="1538" height="928" extended-state="0" />
+    <frame x="106" y="23" width="1538" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31350267" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880382" visible="true" weight="0.31350267" />
+      <window_info id="Structure" order="1" sideWeight="0.50119615" side_tool="true" weight="0.31350267" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -1009,10 +1036,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="132">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#487#488#0" expanded="true" />
@@ -1021,17 +1055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="2142">
+          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
         </state>
       </provider>
     </entry>
