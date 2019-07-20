@@ -21,6 +21,9 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zipkin-clientb" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-jameszow-zuul" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
