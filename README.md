@@ -15,6 +15,7 @@
 * `Spring Cloud Gateway` 网关路由服务 （非阻塞式api）
 * `Deeplearning4j` 深度学习框架（人工智能的一个纯Java编写的框架）
 * `IBM Waston` IBM 人工智能机器人通讯组件
+* `Vue ElementUI` home模块选用前端Vue.js框架和ElementUI组件库
 
 ## 上手指南
 * 所有Spring Cloud相关组件采用的版本为2.1.2<br>
