@@ -7,42 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53f7915-ebc9-4dd1-a24e-c59f39d455d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/aboutme.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/audio/audioMsgTip.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/audio/tip.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/common/paginationTool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/common/showMsgTool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/component/demoDataBindTwoWay.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/component/requiretest/componentInputForRequire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/component/requiretest/componentInputForRequire.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/component/requiretest/requireTest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/date/demoElDatePicker.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/date/demoMultipleDate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/dialog/notification/notification.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/form/demoUpper.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/form/validateRules.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/img/touxiang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/arrayDeleteTest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/copyValue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/dateTool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/dateTool.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/demoScroll.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/skipPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/other/skipPage2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/tab/tabDemo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/table/checkbox1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/table/componentTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/table/customTableHeader.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/table/defineTemplateSelf.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/table/dynamicTable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/upload/uploadForComponent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/vue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/target/home.war" beforeDir="false" afterPath="$PROJECT_DIR$/home/target/home.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/target/home/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/target/home/index.jsp" afterDir="false" />
     </list>
@@ -77,11 +46,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="584">
+              <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#el-main#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/src/main/webapp/upload/uploadForComponent.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3599">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="18">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -101,6 +94,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -108,6 +103,7 @@
     <findStrings>
       <find>Deep</find>
       <find>enable</find>
+      <find>aboutMeUrl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/home/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java" />
         <option value="$PROJECT_DIR$/springcloud-jameszow-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/java/com/jameszow/gateway/utils/gatewayApplication.java" />
@@ -166,7 +160,9 @@
         <option value="$PROJECT_DIR$/home/src/main/webapp/table/defineTemplateSelf.jsp" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/table/dynamicTable.jsp" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/upload/uploadForComponent.jsp" />
+        <option value="$PROJECT_DIR$/home/src/main/webapp/waston/waston.xhtml" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp" />
       </list>
     </option>
   </component>
@@ -203,10 +199,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="56" />
-    <option name="width" value="1538" />
-    <option name="height" value="928" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="7" />
+    <option name="y" value="24" />
+    <option name="width" value="1680" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,7 +252,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="waston" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +272,47 @@
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-james-interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud-jameszow-bus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
@@ -376,7 +423,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,15 +450,15 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/home/src/main/webapp/img" />
-      <recent name="$PROJECT_DIR$/home/src/main/webapp/WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home/src/main/webapp/js/botui" />
       <recent name="$PROJECT_DIR$/home/src/main/webapp" />
       <recent name="$PROJECT_DIR$/home/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/home/src/main/resources/js" />
       <recent name="$PROJECT_DIR$/home/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home/src/main/webapp/img" />
       <recent name="$PROJECT_DIR$/home/src/main/webapp/WEB-INF" />
     </key>
   </component>
@@ -428,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.29">
+  <component name="RunManager" selected="Spring Boot.RegisterMain">
     <configuration name="ECS on Alibaba Cloud" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory">
       <option name="address" />
       <option name="alreadyReset" value="true" />
@@ -764,7 +810,8 @@
       <workItem from="1563198472961" duration="1668000" />
       <workItem from="1563239991231" duration="1723000" />
       <workItem from="1563572637872" duration="578000" />
-      <workItem from="1563626727332" duration="10072000" />
+      <workItem from="1563626727332" duration="10884000" />
+      <workItem from="1563677120708" duration="6135000" />
     </task>
     <task id="LOCAL-00001" summary="commit spring-cloud ai project">
       <created>1557133544192</created>
@@ -805,7 +852,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62143000" />
+    <option name="totallyTimeSpent" value="69090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,10 +864,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="56" width="1538" height="928" extended-state="0" />
+    <frame x="7" y="24" width="1680" height="962" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880382" visible="true" weight="0.33355615" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880382" visible="true" weight="0.30891332" />
       <window_info id="Structure" order="1" sideWeight="0.50119615" side_tool="true" weight="0.31350267" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -831,7 +878,7 @@
       <window_info id="Alibaba Cloud Explorer" order="8" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49799466" weight="0.8397129" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49665776" weight="0.8394495" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -839,7 +886,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32928312" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50200534" side_tool="true" weight="0.8397129" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033423" side_tool="true" weight="0.8397129" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -870,45 +917,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.0.RELEASE/spring-cloud-netflix-eureka-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RELEASE/spring-cloud-netflix-eureka-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#22867#22868#0" expanded="true" />
-            <element signature="e#22902#22903#0" expanded="true" />
-            <element signature="e#23442#23443#0" expanded="true" />
-            <element signature="e#23493#23494#0" expanded="true" />
-            <element signature="e#24783#24784#0" expanded="true" />
-            <element signature="e#24824#24825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-jameszow-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1024,9 +1032,7 @@
     <entry file="file://$PROJECT_DIR$/home/src/main/webapp/img/touxiang.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/img/me.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/img/me.jpg" />
     <entry file="file://$PROJECT_DIR$/home/src/main/webapp/aboutme.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1197,17 +1203,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/upload/uploadForComponent.jsp">
+    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/waston/waston.xhtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3599">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="342">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../botui-master/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="true" selection-end-line="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="584">
+          <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#el-main#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/upload/uploadForComponent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="49" />
         </state>
       </provider>
     </entry>

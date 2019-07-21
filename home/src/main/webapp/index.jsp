@@ -89,8 +89,9 @@
 
         <el-container>
             <el-aside class="left">
-                <el-menu :default-active="activeIndex" class="totalUl">
+                <el-menu :default-active="activeIndex" class="totalUl" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
                     <el-menu-item index="1" @click="open(aboutMeUrl)"><i class="el-icon-service"></i>关于我</el-menu-item>
+                    <el-menu-item index="2" @click="open(ibmWastonUrl)"><i class="el-icon-star-on"></i>IBM Waston</el-menu-item>
                     <el-submenu :index="firstMenu.id" v-for="firstMenu in menus" :key="firstMenu.id">
                         <template slot="title"><i :class="firstMenu.iconClass"></i>{{ firstMenu.name }}</template>
                         <el-menu-item-group v-for="secondMenu in firstMenu.children" :key="secondMenu.id">
@@ -100,12 +101,12 @@
                             </el-menu-item>
                         </el-menu-item-group>
                     </el-submenu>
+                </el-menu>
             </el-aside>
 
             <el-main class="right">
                 <iframe style="width:100%; height:100%; border: 0;" :src="iframeUrl"></iframe>
             </el-main>
-
         </el-container>
     </el-container>
 </div>
@@ -119,9 +120,24 @@
         data: {
             activeIndex: "1",
             aboutMeUrl: "aboutme.jsp",
+            ibmWastonUrl : "./waston/waston.jsp",
             iframeUrl: "aboutme.jsp",
-
             menus: [
+                {
+                    name: "服务注册与发现",
+                    id: "server",
+                    iconClass: "el-icon-star-off",
+                    children: [
+                        {
+                            name: "两种不同的服务治理组件",
+                            id: "DatePicker",
+                            children: [
+                                {name: "Eureka", id: "DatePicker-demo1", url: ""},
+                                {name: "Consul", id: "DatePicker-mutidemo", url: ""}
+                            ]
+                        }
+                    ]
+                },
                 {
                     name: "时间控件",
                     id: "date",
