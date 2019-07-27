@@ -1,5 +1,8 @@
 package com.jameszow.ibm.waston.utils;
 
+import java.lang.*;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.google.gson.JsonObject;
 import com.ibm.watson.developer_cloud.assistant.v1.Assistant;
 import com.ibm.watson.developer_cloud.assistant.v1.model.InputData;
@@ -33,10 +36,14 @@ public class IBMAssistantV1Test {
 
         InputData input = new InputData.Builder("test").build();
         MessageOptions options = new MessageOptions.Builder("2ea4a962-36dc-4f7f-af33-477d7fe6d466")
-          .input(input)
-          .build();
+                .input(input)
+                .build();
         MessageResponse response = assistant.message(options).execute();
-        System.out.println(response);
+        JSONObject jsonObject = JSON.parseObject(response.toString());
+        String output = jsonObject.get("output").toString();
+        JSONObject jsonObject2 = JSON.parseObject(output);
+        String result = jsonObject2.get("text").toString();
+        System.out.println(result);
 
         /**
          *  将返回的 response 存放在 threadLocal 变量中

@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="../js/botui/botui-theme-default.css">
 </head>
 <body>
-<div class="botui-app-container" id="hello-world">
+<div class="botui-app-container" id="test">
     <bot-ui></bot-ui>
 </div>
 <script src="../js/vue.js"></script>
 <script src="../js/botui/botui.js"></script>
+<script src="../js/jquery-3.4.1.js"></script>
 <script>
-    var botui = new BotUI('hello-world');
+    var botui = new BotUI('test');
 
     botui.message.add({
         photo: 'https://moin.im/face.svg',
@@ -30,45 +31,57 @@
     }).then(function (index) {
         setTimeout(function () {
             botui.message.update(index, {
-                content: 'Hello World from bot!',
+                content: '你好我是JamesZow机器人!',
                 loading: false
             }).then(function () {
                 botui.message.add({
-                    delay: 2000,
+                    // delay: 2000,
                     //loading: true,
                     photo: true,
                     photo: 'https://moin.im/face.svg',
-                    content: 'Delayed Hello World'
-                });
-            });
-        }, 5000);
-    });
+                    content: '有什么问题可以询问我'
+                }).then(function () {
+                    return botui.action.text({
+                        action: {
+                            placeholder: "Enter your text here"
+                        }
+                    });
+                }).then(function (res) {
+                    var cc = res.value.toString();
+                    if(cc == '启动服务'){
+                        $.ajax({
+                            type : "post",
+                            url : "<%=request.getContextPath()%>/waston/test",
+                            data : {},
+                            success : function (data) {
+                                console.info(data);
+                                botui.message.add({
+                                    photo: true,
+                                    photo: 'https://moin.im/face.svg',
+                                    delay: 1000,
+                                    content : '已启动'
+                                });
+                            },
+                            error :function () {
+                                botui.message.add({
+                                    photo: true,
+                                    photo: 'https://moin.im/face.svg',
+                                    delay: 1000,
+                                    content : '启动失败'
+                                });
+                            }
 
-    botui.message.add({
-        human: true,
-        photo: false,
-        content: 'Hello World from human!'
-    }).then(function () {
-        botui.action.select({
-            action: {
-                placeholder : "Select Language",
-                value: 'TR,EN', // Selected value or Selected Array object. Example: [{value: "TR", text : "Türkçe" },{value: "EN", text : "English" }]
-                multipleselect : true, // Default: false
-                options : [
-                    {value: "EN", text : "English" },
-                    {value: "ES", text : "Español" },
-                    {value: "TR", text : "Türkçe" },
-                    {value: "DE", text : "Deutsch" },
-                    {value: "FR", text : "Français" },
-                    {value: "IT", text : "Italiano" },
-                ],
-                button: {
-                    icon: 'check',
-                    label: 'OK'
-                }
-            }
-        }).then(function (res) {
-            console.log(res.value);
+                        })
+                    }else {
+                        botui.message.add({
+                            photo: true,
+                            photo: 'https://moin.im/face.svg',
+                            delay: 1000,
+                            content : res.value
+                        });
+                    }
+                })
+            });
         });
     });
 </script>

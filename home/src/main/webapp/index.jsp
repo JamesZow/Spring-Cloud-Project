@@ -132,8 +132,9 @@
                             name: "两种不同的服务治理组件",
                             id: "DatePicker",
                             children: [
-                                {name: "Eureka", id: "DatePicker-demo1", url: ""},
-                                {name: "Consul", id: "DatePicker-mutidemo", url: ""}
+                                // 这里我指定本项目的 服务注册端口 默认本地
+                                {name: "Eureka", id: "DatePicker-demo1", url: "http://localhost:8888"},
+                                {name: "Consul", id: "DatePicker-mutidemo", url: "http://localhost:8500"}
                             ]
                         }
                     ]

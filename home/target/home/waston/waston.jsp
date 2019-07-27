@@ -16,42 +16,74 @@
     <link rel="stylesheet" href="../js/botui/botui-theme-default.css">
 </head>
 <body>
-<div class="botui-app-container" id="hello-world">
+<div class="botui-app-container" id="test">
     <bot-ui></bot-ui>
 </div>
 <script src="../js/vue.js"></script>
 <script src="../js/botui/botui.js"></script>
+<script src="../js/jquery-3.4.1.js"></script>
 <script>
-    var botui = new BotUI('botui-app') // id of container
+    var botui = new BotUI('test');
 
-    botui.message.bot({ // show first message
-        delay: 200,
-        content: 'hello'
-    }).then(() => {
-        return botui.message.bot({ // second one
-            delay: 1000, // wait 1 sec.
-            content: 'how are you?'
-        })
-    }).then(() => {
-        return botui.action.button({ // let user do something
-            delay: 1000,
-            action: [
-                {
-                    text: 'Good',
-                    value: 'good'
-                },
-                {
-                    text: 'Really Good',
-                    value: 'really_good'
-                }
-            ]
-        })
-    }).then(res => {
-        return botui.message.bot({
-            delay: 1000,
-            content: `You are feeling ${res.text}!`
-        })
-    })
+    botui.message.add({
+        photo: 'https://moin.im/face.svg',
+        loading: true
+    }).then(function (index) {
+        setTimeout(function () {
+            botui.message.update(index, {
+                content: '你好我是JamesZow机器人!',
+                loading: false
+            }).then(function () {
+                botui.message.add({
+                    // delay: 2000,
+                    //loading: true,
+                    photo: true,
+                    photo: 'https://moin.im/face.svg',
+                    content: '有什么问题可以询问我'
+                }).then(function () {
+                    return botui.action.text({
+                        action: {
+                            placeholder: "Enter your text here"
+                        }
+                    });
+                }).then(function (res) {
+                    var cc = res.value.toString();
+                    if(cc == '启动服务'){
+                        $.ajax({
+                            type : "post",
+                            url : "<%=request.getContextPath()%>/waston/test",
+                            data : {},
+                            success : function (data) {
+                                console.info(data);
+                                botui.message.add({
+                                    photo: true,
+                                    photo: 'https://moin.im/face.svg',
+                                    delay: 1000,
+                                    content : '已启动'
+                                });
+                            },
+                            error :function () {
+                                botui.message.add({
+                                    photo: true,
+                                    photo: 'https://moin.im/face.svg',
+                                    delay: 1000,
+                                    content : '启动失败'
+                                });
+                            }
+
+                        })
+                    }else {
+                        botui.message.add({
+                            photo: true,
+                            photo: 'https://moin.im/face.svg',
+                            delay: 1000,
+                            content : res.value
+                        });
+                    }
+                })
+            });
+        });
+    });
 </script>
 
 </body>
