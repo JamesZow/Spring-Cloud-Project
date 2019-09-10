@@ -39,11 +39,12 @@ public class configClientApplication {
     /**
      * 此方法 是 调用获取 config-server 下的某个属性，而config-server是从远程仓库拿取这个属性值
      */
-    @Value("${foo}")
-    String foo;
-    @RequestMapping (value = "/test")
+    @Value("${name}")
+    private String name;
+
+    @RequestMapping (value = "/name")
     public String configServertTest(){
-        return foo;
+        return name;
     }
 
 
