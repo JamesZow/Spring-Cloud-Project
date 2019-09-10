@@ -18,11 +18,11 @@
         <module name="springcloud-jameszow-zuul" />
         <module name="springcloud-james-interfaces" />
         <module name="springcloud-jameszow-zipkin" />
+        <module name="springcloud-jameszow-config-client" />
         <module name="springcloud-jameszow-bus" />
-        <module name="springcloud-jameszow-zipkin-clientb" />
         <module name="springcloud-jameszow-consul-serverconsumption" />
         <module name="springcloud-jameszow-gateway" />
-        <module name="springcloud-jameszow-config-client" />
+        <module name="springcloud-jameszow-zipkin-clientb" />
         <module name="springcloud-jameszow-zipkin-clienta" />
       </profile>
     </annotationProcessing>

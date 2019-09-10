@@ -1,0 +1,11 @@
+server.port= 8079
+spring.application.name=config-client
+spring.cloud.config.label=master
+spring.cloud.config.profile=dev
+spring.cloud.config.uri= http://localhost:8078/
+spring.cloud.config.name=config
+eureka.client.serviceUrl.defaultZone=http://localhost:8888/eureka/
+eureka.instance.prefer-ip-address=true
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.serviceId=config-server
+management.endpoints.web.exposure.include=bus-refresh

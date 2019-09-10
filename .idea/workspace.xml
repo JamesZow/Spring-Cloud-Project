@@ -7,26 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53f7915-ebc9-4dd1-a24e-c59f39d455d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/com/jameszow/controller/wastonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/com/jameszow/server/wastonOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/com/jameszow/serverImpl/wastonOneImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/webapp/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/target/home.war" beforeDir="false" afterPath="$PROJECT_DIR$/home/target/home.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/target/home/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/target/home/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/target/home/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/target/home/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/target/home/waston/waston.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/home/target/home/waston/waston.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-eureka/src/main/java/com/jameszow/eureka/test/RegisterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-eureka/target/classes/com/jameszow/eureka/test/RegisterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-eureka/target/classes/com/jameszow/eureka/test/RegisterMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-ibm-waston/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-ibm-waston/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-ibm-waston/src/main/java/com/jameszow/ibm/waston/utils/IBMAssistantV1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-ibm-waston/src/main/java/com/jameszow/ibm/waston/utils/IBMAssistantV1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-ibm-waston/target/classes/com/jameszow/ibm/waston/utils/IBMAssistantV1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-jameszow-ibm-waston/target/classes/com/jameszow/ibm/waston/utils/IBMAssistantV1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-config-client/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-config-server/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-jameszow-config-server/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/springcloud-jameszow-ribbon/target/" />
@@ -76,74 +59,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/src/main/webapp/waston/waston.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/src/main/java/com/jameszow/serverImpl/wastonOneImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home/src/main/java/com/jameszow/controller/wastonController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/src/main/java/com/jameszow/server/wastonOne.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-client/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="180">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/src/main/resources/spring-mvc.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-server/src/main/java/com/jameszow/config/server/utils/configServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="54">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-consul-serverconsumption/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-ibm-waston/src/main/java/com/jameszow/ibm/waston/utils/IBMAssistantV1Test.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-client/src/main/java/com/jameszow/config/client/utils/configClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="138">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,19 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-ibm-waston/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" selection-start-line="47" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            <state relative-caret-position="48">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -194,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/home/src/main/webapp/other/arrayDeleteTest.html" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/other/copyValue.html" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/other/dateTool.html" />
         <option value="$PROJECT_DIR$/home/src/main/webapp/other/demoScroll.html" />
@@ -245,6 +182,7 @@
         <option value="$PROJECT_DIR$/home/src/main/java/com/jameszow/serverImpl/wastonOneImpl.java" />
         <option value="$PROJECT_DIR$/home/src/main/java/com/jameszow/server/wastonOne.java" />
         <option value="$PROJECT_DIR$/home/src/main/java/com/jameszow/controller/wastonController.java" />
+        <option value="$PROJECT_DIR$/springcloud-jameszow-config-server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -266,22 +204,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-jameszow-roots Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springcloud-jameszow-config-client Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-jameszow-roots Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springcloud-jameszow-config-client Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-jameszow-zipkin Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-16" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -294,6 +228,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,124 +239,30 @@
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
-              <item name="serverImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="waston" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-consul-serverconsumption" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-consul-serverconsumption" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-consul-serverconsumption" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-consul-serverconsumption" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -429,7 +270,7 @@
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-consul-serverconsumption" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -438,7 +279,7 @@
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-consul-serverconsumption" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -446,25 +287,25 @@
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-ibm-waston" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-ibm-waston" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-ibm-waston" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-ibm-waston" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -472,17 +313,106 @@
             <path>
               <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-jameszow-ibm-waston" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jameszow" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jameszow-roots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jameszow-roots-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-jameszow-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,6 +423,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun Dashboard.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/home/src/main/webapp/img" />
@@ -533,6 +464,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.15900621" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.29">
     <configuration name="ECS on Alibaba Cloud" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory">
@@ -916,7 +848,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90639000" />
+    <option name="totallyTimeSpent" value="90761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,10 +860,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="23" width="1680" height="962" extended-state="0" />
+    <frame x="0" y="33" width="1680" height="962" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880382" visible="true" weight="0.32356533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880382" visible="true" weight="0.37179488" />
       <window_info id="Structure" order="1" sideWeight="0.50119615" side_tool="true" weight="0.31350267" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -940,23 +872,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50119615" side_tool="true" weight="0.33355615" />
       <window_info id="Alibaba Cloud Explorer" order="8" weight="0.32954547" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32873562" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4957265" weight="0.83793104" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952153" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32912844" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50427353" side_tool="true" weight="0.83793104" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32873562" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32988507" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" weight="0.32949308" />
-      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32873562" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.71149427" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32873562" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4957265" weight="0.83793104" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39952153" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3275862" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32873562" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50427353" side_tool="true" weight="0.83793104" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32873562" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32988507" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="16" weight="0.32949308" />
+      <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32873562" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.5035461" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -985,10 +918,6 @@
     <SUITE FILE_PATH="coverage/springcloud_jameszow_roots$RegisterMain.ic" NAME="RegisterMain Coverage Results" MODIFIED="1563696288984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/img/touxiang.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/src/main/webapp/img/me.jpg" />
     <entry file="file://$PROJECT_DIR$/home/src/main/webapp/aboutme.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1335,6 +1264,20 @@
             <element signature="e#633#634#0" expanded="true" />
             <element signature="e#685#686#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-jameszow-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
